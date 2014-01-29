@@ -1,0 +1,22 @@
+{
+  "name": "oridomi",
+  "description": "Origami for the web. Fold up the DOM like paper.",
+  "version": "1.0.4",
+  "main": "oridomi.js",
+  "ignore": [
+    "demo/",
+    "docs/"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dmotz/oriDomi",
+  "_release": "1.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.4",
+    "commit": "92f6e2c01c544834eb826c7cdda75289b911dadc"
+  },
+  "_source": "git://github.com/dmotz/oriDomi.git",
+  "_target": "~1.0.4",
+  "_originalSource": "oridomi",
+  "_direct": true
+}

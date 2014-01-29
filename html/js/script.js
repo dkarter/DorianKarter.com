@@ -220,3 +220,11 @@ function deobfuscate_email (email_span) {
     $(email_span).html($(email_span).html().replace("[at]","@").replace("[.]","."));
 }
 
+$(function() { 
+    // var folded = new OriDomi(".row-info");
+    // folded.reveal(30);
+    //folded.reveal(30);
+    jQuery.timeago.settings.strings.suffixAgo = "";
+    $("time.timeago").timeago();
+});
+

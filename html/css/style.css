@@ -843,7 +843,7 @@ a {
 }
 
 #container:after, #container:before {
-  content: "";
+  /*content: "";  -  removed - dorian */
   z-index: -1;
   position: absolute;
   left: 4px;
