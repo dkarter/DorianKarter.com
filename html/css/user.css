@@ -12,3 +12,83 @@
 .icons li {
 	width: 6.5%;
 }
+
+
+
+.column h3 { font-weight: normal; }
+.skills-with-ratings h3 { font-weight: bold; }
+
+/* MENU */
+.top-menu {
+	height: 50px;
+	display: none;
+	background: #00AEED;
+	z-index: 900;
+	max-width: 960px;
+	position: absolute;
+	top: 187px;
+
+}
+
+.top-menu li {
+	margin-left: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 0;
+}
+
+.top-menu a {
+	color:black;
+	font-size: 12pt;
+	text-decoration: none;
+	font-weight: bold;
+	border: 0;
+}
+
+.top-menu li a:hover {
+	color: #000;
+}
+
+nav .responsive-menu-bars {
+	color: white;
+	float: right;
+	position: relative;
+	top: -12px;
+	left: -16px;
+	display: none;
+}
+
+@media only screen and (max-width: 960px) { /* Smaller than desktop */
+	.responsive-menu-bars {
+		display: block;
+		top: -34px;
+	}
+
+	.top-menu li {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 768px) { /* iPad size */
+	nav .responsive-menu-bars {
+		left: -16px;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+	nav .responsive-menu-bars {
+		top: -55px;
+	}
+}
+
+@media only screen and (max-width: 480px) { /* Most phones */
+	nav .responsive-menu-bars {
+		top: -76px;
+	}
+}
+
+@media only screen and (max-width: 320px) { /* iPhone in portrait orientation */
+	nav .responsive-menu-bars {
+		top: -99px;
+	}
+}

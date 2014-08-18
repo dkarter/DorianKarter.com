@@ -46,6 +46,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 a { color: #111; }
 a:hover span,
 a:hover { color: #000; }
+
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 

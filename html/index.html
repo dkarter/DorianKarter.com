@@ -2,7 +2,7 @@
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -33,6 +33,12 @@
   <!-- favicon -->
   <link rel="icon" type="image/png" href="./img/favicon.png" />
   
+  <!-- Apple Touch Icons -->
+  <link rel="apple-touch-icon" href="img/apple-touch-icon-iphone.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-ipad-retina.png">
+
   <!-- modify this file to add any changes. This will make update process much easier -->
   <link rel="stylesheet" href="css/user.css">
 
@@ -43,11 +49,24 @@
 <body>
 
   <div id="container">
+    <!-- Insert Menu -->
+    <nav class="top-menu">
+      <ul>
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#skills-pyramid">LANGUAGES</a></li>
+        <li><a href="#personal-info">PERSONAL INFO</a></li>
+      </ul>
+      <a href="#" class="responsive-menu-bars"><i class="fa fa-bars fa-2x" alt="Menu"></i></a>
+    </nav>
 
     <!-- header block -->
 
     <header class="wrap-header">
-      <article>
+      <article class="header-before-menu">
 
         <div class="wrap-ribbons">
           <a class="ribbon ribbon" href="http://doodle.com/dorian" target="_blank">Interview <em>Me</em></a>
@@ -69,12 +88,10 @@
       </article>
     </header>
 
-    <!-- Insert Menu -->
-    <!-- <nav class="top-menu"><ul><li>Intro</li></ul></nav> -->
-
     <!-- information block -->
 
     <div class="row row-info">
+      <a name="about" id="about"></a>
       <article class="markup">
 
         <h2 class="section-title">About Me</h2>
@@ -83,21 +100,21 @@
         <!-- html markup supported -->
 
         <p>
-          Over 10 years of experience in development, design, and team leadership.
-          A true polyglot! Self-motivated, driven and organized. Passionate about code and design.
+          Seasoned engineer with years of experience in development, design, and team leadership.
+          A true polyglot! Self-motivated, driven, and organized. Passionate about clean code and scalable architecture.
         </p>
 
         <p>
           Pursuing a <strong>full-time position</strong> as a <strong>Ruby on Rails/iOS Developer</strong> in the Chicago downtown area.
         </p>
 
-        <blockquote>
-          I’m a true believer that functionality and design are the ultimate principles to solve any modern-day problem. Solutions to problems should be both elegant and timely, and finding the right balance between all of these components is what transforms any work into art.
+        <!-- <blockquote>
+          I’m a true believer that functionality and design are the ultimate principles to solve any modern-day problem. Solutions to problems should be both elegant and timely, and finding the right balance between all components is what transforms any work into art.
           <footer>
             &mdash; Dorian Karter
           </footer>
         </blockquote>
-
+ -->
       </article>
     </div>
 
@@ -107,7 +124,7 @@
     <div class="row row-experience">
       <article>
         <h2 class="section-title">Experience</h2>
-
+        <a name="experience" id="experience"></a>
         <div class="column-row">
           
           <!-- BEGIN KCURA -->
@@ -122,9 +139,11 @@
             </p>
             <div class="smaller-text">
                 <ul>
-                  <li>Worked in an Agile environment (SCRUM) to convert the company’s main software to cross- browser compliant code. (JS, CSS)</li>
-                  <li>Successfully implemented a UI enhancement suite on top of API to improve and speed user workflow.</li>
-                  <li>Technologies used include: ASP.NET MVC 4, WinForms, C#, VB.NET and MSSQL.</li>
+                  <li>Working in a team responsible of developing a web-based document viewer with annotations</li>
+                  <li>Developed two jQuery extension plugins to handle dynamic grids and in-browser panes</li>
+                  <li>Converted the company’s main software offering to standards to allow cross-browser support.</li>
+                  <li>Successfully implemented a UI enhancement suite on top of Relativity Services API to improve and speed user workflow.</li>
+                  <li>Technologies used include: jQuery, ASP.NET MVC 4, WinForms, C#, VB.NET, and MSSQL.</li>
                 </ul>
         
             </div>
@@ -147,12 +166,11 @@
             </p>
             <div class="smaller-text">
                 <ul>
-                  <li>Designed, developed and maintained a real-time financial trading platform - the core of the business, in the leading programming team.</li>
-                  <li>In charge of all clients including WinForms Trader/Dealer clients, ASP.NET Client, Web Services.</li>
+                  <li>Designed, developed, and maintained a real-time financial trading platform - the core of the business, in the lead programming team.</li>
+                  <li>Responsible for all clients including WinForms Trader/Dealer clients, ASP.NET Client, and Web Services.</li>
                   <li>Developed server-side code including business logic, data layer using C#, VB.NET and MSSQL.</li>
-                  <li>Developed a framework for use in all of the company’s applications.</li>
-                  <li>Designed and developed numerous, internal use, client-server applications utilizing C# and WCF.</li>
-                  <li>Windows Server management and security</li>
+                  <li>Created a framework for use in all of the company’s applications.</li>
+                  <li>Designed and developed numerous, internal-use, client-server applications utilizing C# and WCF.</li>
                   <li>Wrote automation scripts for load tests, backups, MSSQL jobs and other automation tasks.</li>
                 </ul>
                 
@@ -181,11 +199,10 @@
                 <ul>
                   <li>Led a team consisting of two other members</li>
                   <li>Designed, Developed and maintained 10 web applications using ASP 3.0, ASP.NET 1.1 and 2.</li>
-                  <li>Applications include: Lead Management system, Recruitment system, Marketing Tools Statistics, Mass Mailer, CMS, eLearning [Flash, ASP &amp; AJAX], CRM.</li>
-                  <li>Automated customized marketing materials delivery using WSH, Photoshop API, and SQL.</li>
-                  <li>Designed print materials as well as online and offline marketing tools (banners, websites, flash movies, e-learning, interactive CDs) using Flash, ActionScript, JScript, HTML and CSS.</li>
+                  <li>Applications include: Lead Management System, Recruitment System, Marketing Tools Statistics, Mass Mailer, Content Management System, Interactive eLearning Platform [Flash, ASP], CRM.</li>
+                  <li>Automated customized marketing materials creation and delivery using WSH, Photoshop API, and SQL.</li>
+                  <li>Designed print materials as well as online and offline marketing tools (banners, websites, flash movies, e-learning, interactive CD menus) using Flash, ActionScript, JScript, HTML and CSS.</li>
                 </ul>
-        
             </div>
             <!-- <p class="reference">
               reference person<br />
@@ -206,8 +223,8 @@
             </p>
             <div class="smaller-text">
                 <ul>
-                  <li>Graphic design and programming of two websites with contact forms, survey forms and a simple content management system using PHP, Flash (ActionScript) and HTML.</li>
-                  <li>Developed a label printing application that produces product labels using Visual Basic 6.</li>
+                  <li>Utilized both graphic design and programming skills to build two websites with contact forms, survey forms and a simple content management system using PHP, Flash (ActionScript) and HTML.</li>
+                  <li>Developed a Product Label Printing Application that produces product labels using Visual Basic 6.</li>
                   <li>Designed and translated printed product catalogs and brochures.</li>
                 </ul>
         
@@ -228,6 +245,7 @@
     <!-- education block -->
 
     <div class="row row-education">
+      <a name="education" id="education"></a>
       <article>
 
         <h2 class="section-title">Education</h2>
@@ -245,7 +263,7 @@
             </p>
             <div class="smaller-text">
               <p>
-                Minor: Entreprenuership
+                Minor: Entrepreneurship
                 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id est in urna posuere congue. Suspendisse facilisis venenatis dolor, sit amet dapibus ligula convallis vel. Suspendisse nec dictum ligula. Aenean tincidunt nisl non augue elementum ut elementum ante dignissim. Etiam vel aliquet mi. Maecenas dignissim convallis ipsum eget lobortis. -->
               </p>
             </div>
@@ -266,7 +284,6 @@
                 <strong>Web:</strong> CoffeeScript, Assembling Sass, Functional HTML5 &amp; CSS3. <br />
                 <strong>iOS:</strong> Try iOS (Objective-C), iOS: Operation Models. <br />
                 <strong>Misc:</strong> Try R, Fundamentals of Design. <br />
-                <!-- Sit amet dapibus ligula convallis vel. Suspendisse nec dictum ligula. Aenean tincidunt nisl non augue elementum ut elementum ante dignissim. Etiam vel aliquet mi. Maecenas dignissim convallis ipsum eget lobortis. -->
               </p>
             </div>
           </div>
@@ -279,11 +296,12 @@
     <!-- portfolio block -->
 
     <div class="row row-portfolio">
+      <a name="portfolio" id="portfolio"></a>
       <article>
 
         <h2 class="section-title">Portfolio</h2>
 
-        <p>Checkout some of my coding and design work</p>
+        <p>Check out my coding and design work</p>
 
         <ul class="portfolio">
 
@@ -294,7 +312,7 @@
               <div class="mask">
                 <h2>AssignmentHub</h2>
                 <p>
-                  This is an open source software project written in 'Ruby on Rails' which has won 1st place in a programming competition.
+                  An open source software project written in 'Ruby on Rails' which won 1st place in a programming competition.
                 </p>
                 <a href="https://github.com/dkarter/AssignmentHub" class="view">Visit on GitHub</a>
               </div>
@@ -308,7 +326,7 @@
               <div class="mask">
                 <h2>Kamailon</h2>
                 <p>
-                  This is an open source software project written in Ruby on Rails during a 24 hour hackathon.
+                  An open source software project written in 'Ruby on Rails' during a 24 hour hackathon.
                 </p>
                 <a href="https://github.com/cs429-ir/kamailon" class="view">Visit on GitHub</a>
               </div>
@@ -417,6 +435,7 @@
     <!-- Rated Skills -->
 
     <div class="row row-skills row-skills-1">
+      <a name="skills" id="skills"></a>
       <article>
 
         <h2 class="section-title">Skills</h2>
@@ -429,8 +448,8 @@
             <div class="skill">
               <h4 class="stars-5">Back-end Programming</h4>
               <p>
-                Proficiency in C#. I have vast experience with the .NET platform since version 1.1 and up to version 4.
-                In addition I have developed numerous projects using Ruby on Rails.
+                Vast experience with the .NET platform from version 1.1 up to version 4.5.
+                Developed numerous projects using Ruby on Rails.
               </p>
             </div>
             <div class="skill">
@@ -443,8 +462,8 @@
             <div class="skill">
               <h4 class="stars-5">Front-end Programming</h4>
               <p>
-                Proficiency in native JS, jQuery and Backbone. Able to write modern HTML5 and CSS3.
-                Have experience with Twitter Bootstrap for producing sleek interfaces out of the box.
+                Proficienct in native JS, jQuery and Backbone. Able to write modern HTML5 and CSS3.
+                Some experience with Twitter Bootstrap for producing sleek interfaces out of the box.
               </p>
             </div>
           </div>
@@ -468,8 +487,8 @@
             <div class="skill">
               <h4 class="stars-4">UI design</h4>
               <p>
-                Extensive knowledge in wireframing and user interface design. I am able to
-                design interfaces with usabillity in mind.
+                Extensive knowledge in wireframing and user interface design. 
+        Emphasis on designing interfaces with usabillity in mind.
               </p>
             </div>
           </div>
@@ -484,28 +503,28 @@
             <div class="skill">
               <h4 class="stars-4">Leadership</h4>
               <p>
-                I have experience with leading groups and motivating others. 
-                Some of my experiences include leading a committee of 8 members in Student Government for IIT.
+                I have experience leading groups and motivating others. 
+                Experience includes leading a committee of 8 members in the Student Government at IIT.
               </p>
             </div>
             <div class="skill">
               <h4 class="stars-4">Public Speaking</h4>
               <p>
-                Ability to speak in front of a large group in an engaging manner. I enjoy presenting and getting people excited.
+                Ability to speak in front of a large group in an engaging manner. 
+        I thoroughly enjoy presenting and inspiring others.
               </p>
             </div>
             <div class="skill">
-              <h4 class="stars-5">Written/Speaking</h4>
+              <h4 class="stars-5">Writing/Visualizing</h4>
               <p>
-                Able to convey complex ideas both in writing, speaking and diagramming. 
-                This is an essential skill in the software industry.
+                Able to convey complex ideas through writing, speaking, and diagramming - essential skills in the software industry.
               </p>
             </div>
           </div>
 
           <div class="skills-group-other">
             <h3 class="description">Other Skills</h3>
-            <p>Musician [Drums, Guitar, Bass], Martial Arts [Karv Maga, Muay Thai, MMA Boxing], Rock Climbing</p>
+            <p>Musician [Drums, Guitar, Bass], Martial Arts [Karv Maga, Muay Thai, Mixed Martial Arts, Boxing], Longboarding, Personal Training, Rock Climbing</p>
           </div>
 
         </div>
@@ -514,6 +533,7 @@
     </div>
 
     <div class="row row-skills row-skills-2">
+      <a name="skills-pyramid" id="skills-pyramid"></a>
       <article>
 
         <h2 class="section-title">Skills Pyramid</h2>
@@ -534,9 +554,9 @@
             Illustrator, InDesign, Agile Development Process, ActionScript 3, SEO
           </p>
           <p>
-             Flash, Redis, Facebook API<br />             
+             Node.js, AngularJS, Knockgout, Amber.js, Flash, Redis, Facebook API<br />             
             <b class="caption">Familiarity &amp; hobbies.</b>
-            German, Spanish, Playing Drums, Guitar, Martial Arts, Audiophile Headphones
+            German, Spanish, Playing Drums, Guitar, Martial Arts
           </p>
         </div>
 
@@ -591,6 +611,7 @@
     </div>
 
     <div class="row row-profile row-inversed">
+      <a name="personal-info" id="personal-info"></a>
       <article>
 
         <h2 class="section-title">Personal info</h2>
@@ -665,7 +686,10 @@
 
 
   <!-- jQuery -->
-  <script src="bower_components/jquery/jquery.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <!-- jQuery.UI -->
+  <script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+  <script src="bower_components/jquery-ui/ui/minified/jquery.ui.effect.min.js"></script>
   
   <!-- jQuery Mousewheel -->
   <script src="bower_components/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>

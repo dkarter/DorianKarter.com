@@ -226,5 +226,28 @@ $(function() {
     //folded.reveal(30);
     jQuery.timeago.settings.strings.suffixAgo = "";
     $("time.timeago").timeago();
-});
 
+    $('nav a').click(function(){        
+        var top = $('body').find($(this).attr('href')).offset().top;
+        $('html, body').animate({
+            scrollTop: top - 40
+        },500, 'easeOutExpo');
+
+        return false;
+    });
+
+});
+$(window).scroll(function () {
+    //console.log('scrolltop: ' + $('body').scrollTop());
+    var threshold = $('.header-before-menu').offset().top + $('.header-before-menu').outerHeight();
+    var nav = $('nav');
+    if ($(this).scrollTop() > threshold) {
+        // nav.css('position', 'absolute');
+        // nav.css('top', $('body').scrollTop() - 30 + 'px');
+        nav.css('position', 'fixed');
+        nav.css('top', '0');
+    } else {
+        nav.css('position', 'absolute');
+        nav.css('top', '187px');
+    }
+});
