@@ -49,6 +49,14 @@
 	color: #000;
 }
 
+.skills .tag {
+	background: #14628f;
+	border-radius: 4px;
+	color: white;
+	font-size: 11pt;
+	padding: 4px 6px;
+}
+
 nav .responsive-menu-bars {
 	color: white;
 	float: right;

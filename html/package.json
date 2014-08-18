@@ -1,0 +1,28 @@
+{
+  "name": "DorianKarter.com",
+  "version": "1.0.0",
+  "description": "This is my portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "test": "open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkarter/DorianKarter.com"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "dorian",
+    "karter"
+  ],
+  "author": "Dorian Karter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkarter/DorianKarter.com/issues"
+  },
+  "homepage": "https://github.com/dkarter/DorianKarter.com",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
