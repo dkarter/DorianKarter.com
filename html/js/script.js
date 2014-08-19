@@ -34,7 +34,7 @@ $(function () {
                 vimeo_regexp = /vimeo\.com\/(\d+)/,
                 youtube_regexp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
 
-            if ($t.attr('href') == undefined) {
+            if ($t.attr('href') === undefined) {
                 return false;
             }
 
@@ -85,7 +85,7 @@ $(function () {
 
             });
 
-        })
+        });
 
         // skills pyramid available on desktop only
         var $skills = $('.skills'),
@@ -99,7 +99,7 @@ $(function () {
             if (!$(this).next().is('i.sep')) {
                 $('<i class="sep">&nbsp;</i>').insertAfter($(this));
             }
-        })
+        });
 
         // this will fix horizontal lines when resizing
         $(window).resize(function () {
@@ -114,7 +114,7 @@ $(function () {
 
             $skills.find('.caption').each(function () {
 
-                var A = $(this).next().position().left
+                var A = $(this).next().position().left,
                     B = $skillsArticle.width();
 
                 $(this).width(B - A + 20);
@@ -135,7 +135,7 @@ $(function () {
 
                 $(this).find('.mask, .zoom-dim, .play-dim').fadeOut(400);
 
-            })
+            });
 
         }
 
@@ -154,7 +154,7 @@ $(function () {
 
             $contact_form.find("input[type=text]:visible, textarea:visible").each(function () {
 
-                if ($(this).val() == '') {
+                if ($(this).val() === '') {
                     $(this).addClass('input-error');
                 }
 
@@ -213,7 +213,7 @@ $(function () {
 
     }
 
-})
+});
 })(jQuery);
 
 function deobfuscate_email (email_span) {
