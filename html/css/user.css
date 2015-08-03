@@ -4,6 +4,28 @@
   Doing this will allow you to update this template easily.
 
 */
+
+
+/* Languages and skills */
+ul.skills {
+	width: 100%;
+	padding: 0;
+}
+
+ul.skills li {
+	display: inline-block;
+  font: 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+	color: #777;
+	padding: 5px;
+}
+
+/*ul.skills li::before {
+  content: "\f00c";
+}*/
+/* icons */
 .icons a {
 	padding: 0;
 }
@@ -13,15 +35,34 @@
 	width: 6.5%;
 }
 
+.profile-picture {
+	width: 100%;
+}
 
+.row-info {
+	background: url(../img/dorian.png) no-repeat bottom right;
+	background-size: 195px;
+}
 
+/*.markup {
+	width: 90%;
+}*/
+.aboutme-text {
+	max-width: 80%;
+	display: inline-block;
+}
+/*
+.aboutme-pic {
+	display: inline-block;
+	width: 34%;
+}*/
 .column h3 { font-weight: normal; }
 .skills-with-ratings h3 { font-weight: bold; }
 
 /* MENU */
 .top-menu {
 	height: 50px;
-	display: none;
+	/*display: none;*/
 	background: #00AEED;
 	z-index: 900;
 	max-width: 960px;
@@ -50,7 +91,7 @@
 }
 
 .skills .tag {
-	background: #14628f;
+	background: #3fb7d4;
 	border-radius: 4px;
 	color: white;
 	font-size: 11pt;
@@ -99,4 +140,8 @@ nav .responsive-menu-bars {
 	nav .responsive-menu-bars {
 		top: -99px;
 	}
+}
+
+.full-width {
+	width: 100%;
 }

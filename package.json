@@ -1,0 +1,22 @@
+{
+  "name": "doriankarter-com",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Dorian Karter",
+  "license": "",
+  "dependencies": {
+    "gulp": "~3.8.8",
+    "gulp-jshint": "~1.8.4",
+    "gulp-util": "~3.0.1",
+    "jshint-stylish": "~1.0.0",
+    "lodash": "*",
+    "y": "^0.3.2"
+  },
+  "devDependencies": {
+    "y": "^0.3.2"
+  }
+}

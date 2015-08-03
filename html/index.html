@@ -32,7 +32,7 @@
 
   <!-- favicon -->
   <link rel="icon" type="image/png" href="./img/favicon.png" />
-  
+
   <!-- Apple Touch Icons -->
   <link rel="apple-touch-icon" href="img/apple-touch-icon-iphone.png">
   <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-ipad.png">
@@ -50,7 +50,7 @@
 
   <div id="container">
     <!-- Insert Menu -->
-    <nav class="top-menu">
+    <!-- <nav class="top-menu">
       <ul>
         <li><a href="#about">ABOUT ME</a></li>
         <li><a href="#experience">EXPERIENCE</a></li>
@@ -61,7 +61,7 @@
         <li><a href="#personal-info">PERSONAL INFO</a></li>
       </ul>
       <a href="#" class="responsive-menu-bars"><i class="fa fa-bars fa-2x" alt="Menu"></i></a>
-    </nav>
+    </nav> -->
 
     <!-- header block -->
 
@@ -69,7 +69,7 @@
       <article class="header-before-menu">
 
         <div class="wrap-ribbons">
-          <a class="ribbon ribbon" href="http://doodle.com/dorian" target="_blank">Interview <em>Me</em></a>
+          <a class="ribbon ribbon" href="https://calendly.com/dorian" target="_blank">Interview <em>Me</em></a>
           <a class="ribbon ribbon2 zoom-html" href="#contacts">Contact <em>Me</em></a>
           <a class="ribbon ribbon3" href="files/dorian_karter_resume.pdf" target="_blank">Download <em>CV</em></a>
         </div>
@@ -82,7 +82,7 @@
         <div class="social-services">
           <!-- social services: tweet / google +1 / facebook like -->
           <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out this software developer! #doriankarter" data-via="doriankarter" data-align="left">Tweet</a>
-          <div class="wrap-g-plusone"><div class="g-plusone" data-size="medium"></div></div>          
+          <div class="wrap-g-plusone"><div class="g-plusone" data-size="medium"></div></div>
         </div>
 
       </article>
@@ -93,28 +93,23 @@
     <div class="row row-info">
       <a name="about" id="about"></a>
       <article class="markup">
+        <div class="aboutme-text">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            Seasoned engineer with many years of experience in development,
+            design, and team leadership. A true polyglot, able to pick the right
+            tool for every job! Self-motivated, driven, and organized.
+            Passionate about clean code and scalable architecture.
+          </p>
 
-        <h2 class="section-title">About Me</h2>
-
-        <!-- add your content here -->
-        <!-- html markup supported -->
-
-        <p>
-          Seasoned engineer with years of experience in development, design, and team leadership.
-          A true polyglot! Self-motivated, driven, and organized. Passionate about clean code and scalable architecture.
-        </p>
-
-        <p>
-          Pursuing a <strong>full-time position</strong> as a <strong>Ruby on Rails/iOS Developer</strong> in the Chicago downtown area.
-        </p>
-
-        <!-- <blockquote>
-          I’m a true believer that functionality and design are the ultimate principles to solve any modern-day problem. Solutions to problems should be both elegant and timely, and finding the right balance between all components is what transforms any work into art.
-          <footer>
-            &mdash; Dorian Karter
-          </footer>
-        </blockquote>
- -->
+          <p>
+            Pursuing a position as a <strong>Software Consultant</strong> in a
+            top consulting agency <strong>Remote/Chicago Loop Area</strong>.
+          </p>
+        </div>
+        <!-- <div class="aboutme-pic">
+          <img src="img/dorian.png" class="profile-picture" alt="Dorian Karter" />
+        </div> -->
       </article>
     </div>
 
@@ -126,9 +121,40 @@
         <h2 class="section-title">Experience</h2>
         <a name="experience" id="experience"></a>
         <div class="column-row">
-          
+          <!-- BEGIN Bolstr -->
+          <div class="column full-width">
+            <a href="https://bolstr.com" target="_blank" class="logo">
+              <img src="img/logos/bolstr.png" width="60" alt="Bolstr" />
+            </a>
+            <h3>Lead Full Stack Software Engineer</h3>
+            <p class="subtitle">
+              <a href="https://bolstr.com">Bolstr</a><br />
+              ~1 year, September 2014 &mdash; August 2015
+            </p>
+            <div class="smaller-text">
+                Responsible for leading all engineering efforts at Bolstr.
+
+                <ul>
+                  <li>Developed a fully responsive Single Page Application (SPA) using AngularJS and Sass</li>
+                  <li>Wrote bash scripts and Capistrano tasks for one-click deployment automation</li>
+                  <li>Created push-to-deploy strategies using git hooks and bare repos</li>
+                  <li>Developed a versioned API from scratch using Ruby, Rack Middleware and Grape (Bellycard Napa)</li>
+                  <li>Have been actively maintaining and extending Ruby on Rails 4 application</li>
+                  <li>Implemented Agile methodologies and workflow (sprint planning, stand-ups, retrospectives)</li>
+                  <li>Created a wiki to establish Bolstr Engineering within the company, document procedures, and share knowledge</li>
+                  <li>Built out a Continuous Integration (CI) process and automated code quality reporting tools</li>
+                  <li>Created a fully tested (99% coverage), ActiveResource-style gem for integrating with RelateIQ CRM API</li>
+                  <li>Full Test Driven Development (TDD) for everything, and conducted code reviews for every feature branch</li>
+                  <li>Integrated a production scale payment processing solution to process large ACH payments</li>
+                  <li>Wrote automated tests (BDD) to simulate user interaction with the app using Cucumber</li>
+                  <li>Conducted technical interviews and screening engineering candidates</li>
+                </ul>
+            </div>
+          </div>
+          <!-- END Bolstr -->
+
           <!-- BEGIN KCURA -->
-          <div class="column">
+          <div class="column full-width">
             <a href="http://kcura.com" target="_blank" class="logo">
               <img src="img/logos/kCuraLogo.png" alt="kCura" />
             </a>
@@ -145,23 +171,42 @@
                   <li>Successfully implemented a UI enhancement suite on top of Relativity Services API to improve and speed user workflow.</li>
                   <li>Technologies used include: jQuery, ASP.NET MVC 4, WinForms, C#, VB.NET, and MSSQL.</li>
                 </ul>
-        
+
             </div>
-            <!-- <p class="reference">
-              reference person<br />
-              <a href="#" target="_blank">John Smith, CEO</a>
-            </p> -->
           </div>
           <!-- END KCURA -->
 
+          <!-- BEGIN IIT -->
+          <div class="column full-width">
+            <a href="http://iit.edu" target="_blank" class="logo">
+              <img src="img/logos/iit.png" alt="kCura" />
+            </a>
+            <h3>Teaching Assitant</h3>
+            <p class="subtitle">
+              <a href="http://iit.edu">Illinois Institute of Technology</a><br />
+              10 months, August 2011 &mdash; May 2012
+            </p>
+            <div class="smaller-text">
+                <ul>
+                  <li>CS 331 - Data Structures</li>
+                  <li>CS 116 - Object Oriented Programming II</li>
+                  <li>Helped students with class assignments and understanding the material.</li>
+                  <li>Graded Labs/Quizzes/Exams.</li>
+                </ul>
+
+            </div>
+          </div>
+          <!-- END IIT -->
+
+
           <!-- BEGIN IFOREX -->
-          <div class="column">
+          <div class="column full-width">
             <a href="#" target="_blank" class="logo">
               <img src="img/logos/iforex.png" alt="iFOREX" />
             </a>
             <h3>Senior Software Engineer</h3>
             <p class="subtitle">
-              <a href="http://iforex.com" target="_blank">iFOREX - Currency Trading Solutions</a> &mdash; Programming<br />
+              <a href="http://iforex.com" target="_blank">iFOREX - Currency Trading Solutions</a><br />
               1 year 10 months, November 2007 &mdash; August 2009
             </p>
             <div class="smaller-text">
@@ -173,12 +218,8 @@
                   <li>Designed and developed numerous, internal-use, client-server applications utilizing C# and WCF.</li>
                   <li>Wrote automation scripts for load tests, backups, MSSQL jobs and other automation tasks.</li>
                 </ul>
-                
+
             </div>
-            <!-- <p class="reference">
-              references<br />
-              <a href="mailto:" target="_blank">Alex Michel, Chief Architect</a> +972 54-666-3598
-            </p> -->
           </div>
           <!-- END IFOREX -->
 
@@ -186,13 +227,13 @@
 
         <div class="column-row">
           <!-- BEGIN VISTA -->
-          <div class="column">
+          <div class="column full-width">
             <a href="http://vistasystem.com" target="_blank" class="logo">
-              <img src="img/logos/vista.png" alt="Vista System" />
+              <img src="img/logos/vista.png" alt="Vista System, Ltd" />
             </a>
             <h3>Head of Web Development, Graphic Designer</h3>
             <p class="subtitle">
-              <a href="http://vistasystem.com">Vista System Ltd.</a> &mdash; programming/graphic design<br />
+              <a href="http://vistasystem.com">Vista System Ltd.</a><br />
               2 years 6 months, June 2005 &mdash; November 2007
             </p>
             <div class="smaller-text">
@@ -204,17 +245,13 @@
                   <li>Designed print materials as well as online and offline marketing tools (banners, websites, flash movies, e-learning, interactive CD menus) using Flash, ActionScript, JScript, HTML and CSS.</li>
                 </ul>
             </div>
-            <!-- <p class="reference">
-              reference person<br />
-              <a href="#" target="_blank">John Smith, CEO</a>
-            </p> -->
           </div>
           <!-- END VISTA -->
 
           <!-- BEGIN HOLLANDIA -->
-          <div class="column">
+          <div class="column full-width">
             <a href="http://www.hollandia.co.il/" target="_blank" class="logo">
-              <img src="img/logos/hollandia.png" alt="" />
+              <img src="img/logos/hollandia.png" alt="Hollandia International" />
             </a>
             <h3>Programmer, Graphic Designer, Webmaster</h3>
             <p class="subtitle">
@@ -227,16 +264,11 @@
                   <li>Developed a Product Label Printing Application that produces product labels using Visual Basic 6.</li>
                   <li>Designed and translated printed product catalogs and brochures.</li>
                 </ul>
-        
             </div>
-            <!-- <p class="reference">
-              reference person<br />
-              <a href="#" target="_blank">John Smith, CEO</a>
-            </p> -->
           </div>
           <!-- END HOLLANDIA -->
 
-          
+
         </div>
 
       </article>
@@ -278,13 +310,11 @@
               Online<br />
             </p>
             <div class="smaller-text">
-              <p>
-                <h5>Courses Taken</h5>
-                <strong>Ruby/RoR:</strong> Ruby Bits, Rails Testing for Zombies, Testing with RSpec, Rails for Zombies Pt. 1 &amp; Pt. 2, Rails Best Practices, Rails 4: Zombie Outlaws, Try Ruby. <br />
-                <strong>Web:</strong> CoffeeScript, Assembling Sass, Functional HTML5 &amp; CSS3. <br />
-                <strong>iOS:</strong> Try iOS (Objective-C), iOS: Operation Models. <br />
-                <strong>Misc:</strong> Try R, Fundamentals of Design. <br />
-              </p>
+              <h5>Courses Taken</h5>
+              <strong>Ruby/RoR:</strong> Ruby Bits, Rails Testing for Zombies, Testing with RSpec, Rails for Zombies Pt. 1 &amp; Pt. 2, Rails Best Practices, Rails 4: Zombie Outlaws, Try Ruby. <br />
+              <strong>Web:</strong> CoffeeScript, Assembling Sass, Functional HTML5 &amp; CSS3. <br />
+              <strong>iOS:</strong> Try iOS (Objective-C), iOS: Operation Models. <br />
+              <strong>Misc:</strong> Try R, Fundamentals of Design. <br />
             </div>
           </div>
 
@@ -361,7 +391,7 @@
             </div>
           </li>
 
-          
+
           <!-- !!!images!!! -->
 
           <!-- student voice -->
@@ -417,7 +447,7 @@
           </li>
 
 
-          
+
 
           <!-- senate nominations -->
           <li>
@@ -427,14 +457,14 @@
           </li>
 
         </ul>
-          
+
 
       </article>
     </div>
 
     <!-- Rated Skills -->
 
-    <div class="row row-skills row-skills-1">
+    <!-- <div class="row row-skills row-skills-1">
       <a name="skills" id="skills"></a>
       <article>
 
@@ -456,7 +486,7 @@
               <h4 class="stars-5">Databases</h4>
               <p>
                 Deep knowledge of MSSQL, MySQL, Oracle, and SQLite databases. Knowledge of Redis.
-                Able to design solutions to any data storage problem. 
+                Able to design solutions to any data storage problem.
               </p>
             </div>
             <div class="skill">
@@ -487,7 +517,7 @@
             <div class="skill">
               <h4 class="stars-4">UI design</h4>
               <p>
-                Extensive knowledge in wireframing and user interface design. 
+                Extensive knowledge in wireframing and user interface design.
         Emphasis on designing interfaces with usabillity in mind.
               </p>
             </div>
@@ -503,14 +533,14 @@
             <div class="skill">
               <h4 class="stars-4">Leadership</h4>
               <p>
-                I have experience leading groups and motivating others. 
+                I have experience leading groups and motivating others.
                 Experience includes leading a committee of 8 members in the Student Government at IIT.
               </p>
             </div>
             <div class="skill">
               <h4 class="stars-4">Public Speaking</h4>
               <p>
-                Ability to speak in front of a large group in an engaging manner. 
+                Ability to speak in front of a large group in an engaging manner.
         I thoroughly enjoy presenting and inspiring others.
               </p>
             </div>
@@ -530,32 +560,45 @@
         </div>
 
       </article>
-    </div>
+    </div> -->
 
     <div class="row row-skills row-skills-2">
-      <a name="skills-pyramid" id="skills-pyramid"></a>
+      <a name="skills-pyramid"></a>
       <article>
 
-        <h2 class="section-title">Skills Pyramid</h2>
+        <h2 class="section-title">Skills</h2>
 
-        <div class="skills">
-          <span class="tag" style="display: none">Linux</span>
-          <p>
-            JavaScript, CSS<br />
-            Ruby on Rails, Ruby, AngularJS,<br />
-            iOS Development, Good taste for design/UX<br />
-            Web Design, Photoshop, Wireframing, Prototyping<br />
-            Linux, OS X, Bash, MSSQL, MySQL, SQLite, Oracle, Microsoft IIS<br />
-            <b class="caption">My top skills.</b>
-            Illustrator, InDesign, Agile Development Process, ActionScript 3, SEO
-          </p>
-          <p>
-             Node.js, Knockout, Flash, Redis, Facebook API<br />             
-            <b class="caption">Familiarity &amp; hobbies.</b>
-            German, Spanish, Playing Drums, Guitar, Martial Arts
-          </p>
-        </div>
-
+        <ul class="skills">
+          <li>Linux</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
+          <li>Ruby on Rails</li>
+          <li>Ruby</li>
+          <li>AngularJS</li>
+          <li>iOS Development</li>
+          <li>Good eye for design/UX</li>
+          <li>Web Design</li>
+          <li>Photoshop</li>
+          <li>Wireframing</li>
+          <li>Prototyping</li>
+          <li>Linux</li>
+          <li>OS X</li>
+          <li>Bash</li>
+          <li>MSSQL</li>
+          <li>MySQL</li>
+          <li>SQLite</li>
+          <li>Oracle</li>
+          <li>Sketch</li>
+          <li>Illustrator</li>
+          <li>InDesign</li>
+          <li>Agile Development Process</li>
+          <li>SEO</li>
+          <li>Node.js</li>
+          <li>Redis</li>
+        </ul>
+        <h4>Hobbies</h4>
+        Martial Arts (Brazilian Jiu Jitsu, MMA, Muay Thai, Krav Maga),
+        Skateboarding, Drums, Guitar.
       </article>
     </div>
 
@@ -623,17 +666,13 @@
                 <strong>Basic:</strong> Spanish, German, Mandarin Chinese</td>
           </tr>
           <tr>
-            
+
           </tr>
           <tr>
             <th>E-Mail</th>
             <td><span class="email_span">jobs[at]doriankarter[.]com</span> / <a href="#contacts" class="zoom-html">contact form</a></td>
           </tr>
         </table>
-
-        <div class="profile-pic">
-          <img src="img/dorian.jpg" alt="" />
-        </div>
 
       </article>
     </div>
@@ -642,7 +681,7 @@
       <article>
 
         <ul class="icons">
-          
+
           <li>
             <a href="http://www.linkedin.com/in/doriankarter" target="_blank">
               <i class="fa fa-linkedin fa-3x" alt="View my LinkedIn Profile"></i>
@@ -650,7 +689,7 @@
           </li>
           <li>
             <a href="http://www.doodle.com/dorian" alt="Set up a meeting with me on Doodle 'Meet Me'" target="_blank">
-              <i class="fa fa-calendar fa-3x"></i>              
+              <i class="fa fa-calendar fa-3x"></i>
             </a>
           </li>
           <li>
@@ -676,8 +715,8 @@
   </div>
 
   <footer class="wrap-footer">
-      <div class="fl">&copy; Dorian Karter, 2013.</div>
-      <div class="fr"><!-- text on the right of the footer line --></div>
+      <div class="fl">&copy; Dorian Karter, 2015.</div>
+      <div class="fr">Crafted in Chicago</div>
   </footer>
 
 
@@ -686,12 +725,12 @@
   <!-- jQuery.UI -->
   <script src="lib/jquery-ui/ui/minified/jquery-ui.min.js"></script>
   <script src="lib/jquery-ui/ui/minified/jquery.ui.effect.min.js"></script>
-  
+
   <!-- jQuery Mousewheel -->
   <script src="lib/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
   <!-- jQuery Fancybox plugin v2.1.5 -->
-  <script src="lib/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>  
+  <script src="lib/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
   <link rel="stylesheet" type="text/css" href="lib/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
 
   <!-- OriDomi -->
