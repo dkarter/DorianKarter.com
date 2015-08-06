@@ -27,3 +27,48 @@ build/Release
 # Deployed apps should consider commenting this line out:
 # see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
 node_modules
+
+# wordpress specific
+html/blog/wp-config.php
+html/blog/wp-content/uploads/
+html/blog/wp-content/blogs.dir/
+html/blog/wp-content/upgrade/*
+html/blog/wp-content/backup-db/*
+html/blog/wp-content/advanced-cache.php
+html/blog/wp-content/wp-cache-config.php
+html/blog/wp-content/cache/*
+html/blog/wp-content/cache/supercache/*
+
+# wp core (as of 3.4.1)
+html/blog/db-config.php
+html/blog/index.php
+html/blog/license.txt
+html/blog/readme.html
+html/blog/wp-activate.php
+html/blog/wp-app.php
+html/blog/wp-atom.php
+html/blog/wp-blog-header.php
+html/blog/wp-comments-post.php
+html/blog/wp-commentsrss2.php
+html/blog/wp-config-sample.php
+html/blog/wp-cron.php
+html/blog/wp-feed.php
+html/blog/wp-links-opml.php
+html/blog/wp-load.php
+html/blog/wp-login.php
+html/blog/wp-mail.php
+html/blog/wp-rdf.php
+html/blog/wp-rss.php
+html/blog/wp-rss2.php
+html/blog/wp-pass.php
+html/blog/wp-register.php
+html/blog/wp-settings.php
+html/blog/wp-signup.php
+html/blog/wp-trackback.php
+html/blog/xmlrpc.php
+html/blog/wp-admin
+html/blog/wp-includes
+html/blog/wp-content/index.php
+html/blog/wp-content/themes/twenty*
+html/blog/wp-content/themes/index.php
+html/blog/wp-content/plugins/*
