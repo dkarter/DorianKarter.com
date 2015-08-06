@@ -22,9 +22,10 @@ ul.skills li {
 	padding: 5px;
 }
 
-/*ul.skills li::before {
-  content: "\f00c";
-}*/
+.skills-text {
+	color: #777;
+}
+
 /* icons */
 .icons a {
 	padding: 0;
