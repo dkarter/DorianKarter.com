@@ -1,147 +1,178 @@
 /*
 
-  Use this file to add any custom modifications.
-  Doing this will allow you to update this template easily.
+Use this file to add any custom modifications.
+Doing this will allow you to update this template easily.
 
-*/
+ */
 
 /* Languages and skills */
 ul.skills {
-	width: 100%;
-	padding: 0;
+  width: 100%;
+  padding: 0;
 }
 
 ul.skills li {
-	display: inline-block;
+  display: inline-block;
   font: 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-	color: #777;
-	padding: 5px;
+  color: #777;
+  padding: 5px;
 }
 
 .skills-text {
-	color: #777;
+  color: #777;
 }
 
 /* icons */
 .icons a {
-	padding: 0;
+  padding: 0;
 }
 
 
 .icons li {
-	width: 6.5%;
+  width: 6.5%;
 }
 
 .profile-picture {
-	width: 100%;
+  width: 100%;
 }
 
 .row-info {
-	background: url(../img/dorian.png) no-repeat bottom right;
-	background-size: 195px;
+  background: url(../img/dorian.png) no-repeat bottom right;
+  background-size: 195px;
 }
 
-/*.markup {
-	width: 90%;
-}*/
 .aboutme-text {
-	max-width: 80%;
-	display: inline-block;
+  max-width: 80%;
+  display: inline-block;
 }
-/*
-.aboutme-pic {
-	display: inline-block;
-	width: 34%;
-}*/
+
+@media only screen and (max-width: 548px) { 
+  .aboutme-text {
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 400px) { 
+  .aboutme-text {
+    max-width: 100%;
+  }
+
+  .row-info {
+    background: none;
+  }
+}
+
+.ribbon4 {
+  padding-top: 17px;
+  background-image: url(../img/ribbon-4.png);
+}
+
 .column h3 { font-weight: normal; }
 .skills-with-ratings h3 { font-weight: bold; }
 
 /* MENU */
 .top-menu {
-	height: 50px;
-	/*display: none;*/
-	background: #00AEED;
-	z-index: 900;
-	max-width: 960px;
-	position: absolute;
-	top: 187px;
-
+  height: 50px;
+  /*display: none;*/
+  background: #00AEED;
+  z-index: 900;
+  max-width: 960px;
+  position: absolute;
+  top: 187px;
 }
 
 .top-menu li {
-	margin-left: 30px;
-	display: inline-block;
-	vertical-align: middle;
-	height: 0;
+  margin-left: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 0;
 }
 
 .top-menu a {
-	color:black;
-	font-size: 12pt;
-	text-decoration: none;
-	font-weight: bold;
-	border: 0;
+  color:black;
+  font-size: 12pt;
+  text-decoration: none;
+  font-weight: bold;
+  border: 0;
 }
 
 .top-menu li a:hover {
-	color: #000;
+  color: #000;
 }
 
 .skills .tag {
-	background: #3fb7d4;
-	border-radius: 4px;
-	color: white;
-	font-size: 11pt;
-	padding: 4px 6px;
+  background: #3fb7d4;
+  border-radius: 4px;
+  color: white;
+  font-size: 11pt;
+  padding: 4px 6px;
 }
 
 nav .responsive-menu-bars {
-	color: white;
-	float: right;
-	position: relative;
-	top: -12px;
-	left: -16px;
-	display: none;
+  color: white;
+  float: right;
+  position: relative;
+  top: -12px;
+  left: -16px;
+  display: none;
 }
 
 @media only screen and (max-width: 960px) { /* Smaller than desktop */
-	.responsive-menu-bars {
-		display: block;
-		top: -34px;
-	}
+  .responsive-menu-bars {
+    display: block;
+    top: -34px;
+  }
 
-	.top-menu li {
-		display: none !important;
-	}
+  .top-menu li {
+    display: none !important;
+  }
 }
 
 @media only screen and (max-width: 768px) { /* iPad size */
-	nav .responsive-menu-bars {
-		left: -16px;
-	}
+  nav .responsive-menu-bars {
+    left: -16px;
+  }
 }
 
 @media only screen and (max-width: 680px) {
-	nav .responsive-menu-bars {
-		top: -55px;
-	}
+  nav .responsive-menu-bars {
+    top: -55px;
+  }
 }
 
 @media only screen and (max-width: 480px) { /* Most phones */
-	nav .responsive-menu-bars {
-		top: -76px;
-	}
+  nav .responsive-menu-bars {
+    top: -76px;
+  }
 }
 
 @media only screen and (max-width: 320px) { /* iPhone in portrait orientation */
-	nav .responsive-menu-bars {
-		top: -99px;
-	}
+  nav .responsive-menu-bars {
+    top: -99px;
+  }
 }
 
 .full-width {
-	width: 100%;
+  width: 100%;
+}
+
+.social-services {
+  position: absolute;
+  right: 0;
+  width: initial;
+}
+
+.social-services ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px 0;
+}
+
+.social-services ul li a {
+  border: 0;
+  color: #777;
+  text-decoration: none;
 }
